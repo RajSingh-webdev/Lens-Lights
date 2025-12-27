@@ -1,0 +1,121 @@
+*{
+        margin: 0; padding: 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+}
+
+.mainbox{
+        background-image: url(cam-pic.jpg);
+        background-size: cover;
+        height: 100vh;
+}
+
+.btn1{
+        font-size: 30px;
+        font-weight: 700;
+        position: absolute;
+        left: 30px; 
+        line-height: 60px;
+        transition:all ease 0.3s ;
+}
+
+.sidemenu{
+        height: 100vh; width: 300px;
+        box-shadow: 0 0 6px rgba(225, 225, 225, 0.5);
+        background-color: rgba(225, 225, 225, 0.1);
+        position: fixed;
+        left: -320px;
+        transition:all ease 0.3s ;
+}
+
+.sidemenu .logo{
+        position: absolute;
+        width: 100%;
+        box-shadow: 0 0 4px rgba(225, 225, 225, 0.5);
+        line-height: 60px;
+        height: 60px;
+}
+
+.logo a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        position: absolute;
+        left: 80px;
+        color: white;
+}
+
+.btn2{
+        font-size: 20px;
+        position: absolute;
+        right: 15px;
+        line-height: 60px;
+        top: 1.5px;
+        transition:all ease 0.3s ;
+}
+
+.menu{
+        position: absolute;
+        width: 100%;
+        top: 70px;
+}
+
+.menu li{
+        margin-top: 6px;
+        padding: 16px 20px;
+}
+
+.menu li i,a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+}
+
+.menu li i{
+        margin-right: 5px;
+}
+
+.slmda{
+        position: absolute;
+        bottom: 50px;
+        left: 80px;
+}
+
+.slmda i{
+        padding-right: 10px;
+        color: white;
+        opacity: 0.5;
+}
+
+input{
+        position: fixed;
+        left: -300px;
+}
+
+.menu li:hover{
+        box-shadow: 0 0 4px rgba(225, 225, 225, 0.5);
+}
+
+.slmda i:hover{
+        opacity: 1;
+        transform: scale(1.25);
+}
+
+.btn2 i:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+}
+
+.btn1 i:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+}
+
+#check:checked ~ .sidemenu{
+        left: 0px;
+}
+
+#check:checked ~ .btn1{
+        opacity: 0;
+}
+
