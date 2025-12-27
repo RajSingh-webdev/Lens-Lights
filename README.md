@@ -37,3 +37,8 @@ This project was built purely for learning and practice, with the intention of i
 - Add additional sections and pages
 - Enhance styling with animations and transitions
 - Add JavaScript-based interactivity
+
+## Preview
+
+![Lens & Lights Homepage](preview.png)
+
